@@ -1,0 +1,205 @@
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/assets/styles/common.scss ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/**
+* font-size = viewport > $widthMax ? $fontMax : viewport < $widthMin ? $fontMin : fluid
+* $fallback - initial value for old browsers (without support of vw units)
+**/
+.common__container__K9D8N {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.common__error__ujmX_ {
+  font-size: 14px;
+  margin-top: 3px;
+}
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/app.scss ***!
+  \*********************************************************************************************************************************************************************************************************/
+/**
+* font-size = viewport > $widthMax ? $fontMax : viewport < $widthMin ? $fontMin : fluid
+* $fallback - initial value for old browsers (without support of vw units)
+**/
+@font-face {
+  font-family: "Nekst";
+  src: local("Nekst"), local("Nekst-Black"), url(/assets/fonts/f0e2921efcf1112b1749.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy Regular"), local("Gilroy-Regular"), url(/assets/fonts/ebe86c0337572553acea.woff) format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: Nekst;
+  color: #575757;
+}
+
+.app__wrapper__QIdmT {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  min-height: 100vh;
+}
+
+.app__content__qaZug {
+  -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/layout/Header/header.scss ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/**
+* font-size = viewport > $widthMax ? $fontMax : viewport < $widthMin ? $fontMin : fluid
+* $fallback - initial value for old browsers (without support of vw units)
+**/
+.header__header__BkcP9 {
+  height: 50px;
+  background-color: #b9a7d1;
+}
+.header__header__BkcP9 .header__content__yj5I7 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+}
+.header__header__BkcP9 .header__content__yj5I7 .header__right__Q0e7l {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.header__header__BkcP9 .header__content__yj5I7 .header__right__Q0e7l a {
+  padding: 0 10px;
+}
+.header__header__BkcP9 .header__content__yj5I7 .header__right__Q0e7l a:hover {
+  background-color: #575757;
+  color: #ffffff;
+}
+.header__header__BkcP9 .header__content__yj5I7 a {
+  font-size: 14px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  line-height: 50px;
+}
+@media (min-width: 480px) {
+  .header__header__BkcP9 .header__content__yj5I7 a {
+    font-size: 14px;
+    font-size: calc(0.0125 * 100vw + 8px);
+  }
+}
+@media (min-width: 1280px) {
+  .header__header__BkcP9 .header__content__yj5I7 a {
+    font-size: 24px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/components/Logo/logo.scss ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/**
+* font-size = viewport > $widthMax ? $fontMax : viewport < $widthMin ? $fontMin : fluid
+* $fallback - initial value for old browsers (without support of vw units)
+**/
+.logo__logo__kQHKc {
+  font-size: 24px;
+}
+@media (min-width: 480px) {
+  .logo__logo__kQHKc {
+    font-size: 18px;
+    font-size: calc(0.015 * 100vw + 16.8px);
+  }
+}
+@media (min-width: 1280px) {
+  .logo__logo__kQHKc {
+    font-size: 36px;
+  }
+}
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/layout/Footer/footer.scss ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/**
+* font-size = viewport > $widthMax ? $fontMax : viewport < $widthMin ? $fontMin : fluid
+* $fallback - initial value for old browsers (without support of vw units)
+**/
+.footer__footer__irltR {
+  min-height: 20vh;
+  background-color: #575757;
+  color: #ffffff;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  padding: 10px 0;
+}
+.footer__footer__irltR h2 {
+  color: #b9a7d1;
+}
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/pages/Home/home.scss ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/**
+* font-size = viewport > $widthMax ? $fontMax : viewport < $widthMin ? $fontMin : fluid
+* $fallback - initial value for old browsers (without support of vw units)
+**/
+.home__image__UhaWY {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-top: 5vh;
+  background-image: url(/assets/img/3a03708e42481565259f.svg);
+  background-repeat: no-repeat;
+}
+.home__image__UhaWY img {
+  width: 140px;
+}
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/pages/Page404/page404.scss ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/**
+* font-size = viewport > $widthMax ? $fontMax : viewport < $widthMin ? $fontMin : fluid
+* $fallback - initial value for old browsers (without support of vw units)
+**/
+.page404__error__hkQBW {
+  margin-top: 2vh;
+  font-size: 148px;
+  text-align: center;
+}
+@media (min-width: 480px) {
+  .page404__error__hkQBW {
+    font-size: 18px;
+    font-size: calc(0.075 * 100vw + 112px);
+  }
+}
+@media (min-width: 1280px) {
+  .page404__error__hkQBW {
+    font-size: 208px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi40YThiMjhkZGQ1ODdkODNlOWU0My5jc3MiLCJtYXBwaW5ncyI6Ijs7O0FBd0NBOzs7RUFBQTtBQ3JDQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7QUFFRjs7QUFDQTtFQUNFO0VBRUE7QUFDRixDOzs7O0FEeUJBOzs7RUFBQTtBRXJDQTtFQUNFO0VBQ0E7RUFFQTtFQUNBO0FBQ0Y7QUFDQTtFQUNFO0VBQ0E7RUFFQTtFQUNBO0FBQUY7QUFHQTtFQUNFO0FBREY7O0FBSUE7OztFQUdFO0FBREY7O0FBSUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FBREY7O0FBSUE7RUFDRTtFQUFBO0VBQ0E7TUFBQTtFQUNBO0FBREY7O0FBSUE7RUFDRTtNQUFBO0VBQ0E7RUFDQTtBQURGLEM7Ozs7QUZKQTs7O0VBQUE7QUduQ0E7RUFDRSxZQUhhO0VBSWI7QUFBRjtBQUVFO0VBQ0U7RUFBQTtFQUNBO01BQUE7RUFDQTtNQUFBO0VBQ0E7QUFBSjtBQUVJO0VBQ0U7RUFBQTtFQUNBO01BQUE7QUFBTjtBQUVNO0VBQ0U7QUFBUjtBQUVRO0VBQ0U7RUFDQTtBQUFWO0FBS0k7RUhzQkYsZUdyQjJCO0VBQ3ZCO0VBQUE7RUFDQSxpQkE3QlM7QUEwQmY7QUh3QkU7RUd4QkU7SUgwQkUsZUd6QmtEO0lIMkJwRDtFR3ZCRjtBQUNGO0FId0JFO0VHOUJFO0lIK0JBLGVHOUIrQjtFQVNqQztBQUNGLEM7Ozs7QUhBQTs7O0VBQUE7QUlyQ0E7RUpnREUsZUkvQ3lCO0FBRTNCO0FKK0NFO0VJbERGO0lKb0RNLGVJbkRnRDtJSnFEbEQ7RUk5Q0Y7QUFDRjtBSitDRTtFSXhERjtJSnlESSxlSXhENkI7RUFZL0I7QUFDRixDOzs7O0FKdUJBOzs7RUFBQTtBS3JDQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO01BQUE7RUFDQTtBQUVGO0FBQUU7RUFDRTtBQUVKLEM7Ozs7QUwyQkE7OztFQUFBO0FNckNBO0VBQ0k7RUFBQTtFQUNBO01BQUE7RUFDQTtNQUFBO0VBQ0E7RUFDQTtFQUNBO0FBRUo7QUFBSTtFQUNJO0FBRVIsQzs7OztBTjBCQTs7O0VBQUE7QU9yQ0E7RUFDSTtFUCtDRixnQk85Q3lCO0VBQ3ZCO0FBRUo7QVA2Q0U7RU9sREY7SVBvRE0sZU9sRGtEO0lQb0RwRDtFTzVDRjtBQUNGO0FQNkNFO0VPeERGO0lQeURJLGdCT3ZEOEI7RUFhaEM7QUFDRixDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcmVhY3Qtc3RhcnRlci1zcGxpdC13ZWJwYWNrLTUtdHMvLi9zcmMvYXNzZXRzL3N0eWxlcy92YXJpYWJsZXMuc2NzcyIsIndlYnBhY2s6Ly9yZWFjdC1zdGFydGVyLXNwbGl0LXdlYnBhY2stNS10cy8uL3NyYy9hc3NldHMvc3R5bGVzL2NvbW1vbi5zY3NzIiwid2VicGFjazovL3JlYWN0LXN0YXJ0ZXItc3BsaXQtd2VicGFjay01LXRzLy4vc3JjL2FwcC5zY3NzIiwid2VicGFjazovL3JlYWN0LXN0YXJ0ZXItc3BsaXQtd2VicGFjay01LXRzLy4vc3JjL2xheW91dC9IZWFkZXIvaGVhZGVyLnNjc3MiLCJ3ZWJwYWNrOi8vcmVhY3Qtc3RhcnRlci1zcGxpdC13ZWJwYWNrLTUtdHMvLi9zcmMvY29tcG9uZW50cy9Mb2dvL2xvZ28uc2NzcyIsIndlYnBhY2s6Ly9yZWFjdC1zdGFydGVyLXNwbGl0LXdlYnBhY2stNS10cy8uL3NyYy9sYXlvdXQvRm9vdGVyL2Zvb3Rlci5zY3NzIiwid2VicGFjazovL3JlYWN0LXN0YXJ0ZXItc3BsaXQtd2VicGFjay01LXRzLy4vc3JjL3BhZ2VzL0hvbWUvaG9tZS5zY3NzIiwid2VicGFjazovL3JlYWN0LXN0YXJ0ZXItc3BsaXQtd2VicGFjay01LXRzLy4vc3JjL3BhZ2VzL1BhZ2U0MDQvcGFnZTQwNC5zY3NzIl0sInNvdXJjZXNDb250ZW50IjpbIkB1c2UgXCJzYXNzOm1hdGhcIjtcclxuXHJcbiRjb2xvcnM6IChcclxuICBibGFjazogIzExMTExMSxcclxuICBkYXJrLWdyZXk6ICM1NzU3NTcsXHJcbiAgd2hpdGU6ICNmZmZmZmYsXHJcbiAgdmlvbGV0OiAjYjlhN2QxLFxyXG4gIHN1Y2Nlc3M6ICM5MGViZGYsXHJcbiAgZGFuZ2VyOiAjZjBhNmE2LFxyXG4pO1xyXG5cclxuJGZvbnRTaXplOiAyNHB4O1xyXG5cclxuQGZ1bmN0aW9uIHN0cmlwVW5pdCgkbnVtYmVyKSB7XHJcbiAgQGlmIHR5cGUtb2YoJG51bWJlcikgPT0gXCJudW1iZXJcIiBhbmQgbm90IHVuaXRsZXNzKCRudW1iZXIpIHtcclxuICAgIEByZXR1cm4gbWF0aC5kaXYoJG51bWJlciwgKCRudW1iZXIgKiAwICsgMSkpO1xyXG4gIH1cclxuICBAcmV0dXJuICRudW1iZXI7XHJcbn1cclxuXHJcbkBmdW5jdGlvbiBjYWxjRmx1aWRGb250U2l6ZShcclxuICAkZm9udE1pbixcclxuICAkZm9udE1heCxcclxuICAkd2lkdGhNaW4sXHJcbiAgJHdpZHRoTWF4LFxyXG4gICR1bml0czogcHhcclxuKSB7XHJcbiAgJGZvbnRNaW46IHN0cmlwVW5pdCgkZm9udE1pbik7XHJcbiAgJGZvbnRNYXg6IHN0cmlwVW5pdCgkZm9udE1heCk7XHJcbiAgJHdpZHRoTWluOiBzdHJpcFVuaXQoJHdpZHRoTWluKTtcclxuICAkd2lkdGhNYXg6IHN0cmlwVW5pdCgkd2lkdGhNYXgpO1xyXG5cclxuICAkazogY2FsYygoJGZvbnRNYXggLSAkZm9udE1pbikgLyAoJHdpZHRoTWF4IC0gJHdpZHRoTWluKSk7XHJcbiAgJGI6ICRmb250TWluIC0gJGsgKiAkd2lkdGhNaW47XHJcblxyXG4gICRiOiAkYiArICR1bml0cztcclxuXHJcbiAgQHJldHVybiBjYWxjKCN7JGt9ICogMTAwdncgKyAjeyRifSk7XHJcbn1cclxuXHJcbi8qKlxyXG4qIGZvbnQtc2l6ZSA9IHZpZXdwb3J0ID4gJHdpZHRoTWF4ID8gJGZvbnRNYXggOiB2aWV3cG9ydCA8ICR3aWR0aE1pbiA/ICRmb250TWluIDogZmx1aWRcclxuKiAkZmFsbGJhY2sgLSBpbml0aWFsIHZhbHVlIGZvciBvbGQgYnJvd3NlcnMgKHdpdGhvdXQgc3VwcG9ydCBvZiB2dyB1bml0cylcclxuKiovXHJcbkBtaXhpbiBmbHVpZEZvbnRTaXplKFxyXG4gICRmb250TWluLFxyXG4gICRmb250TWF4LFxyXG4gICR3aWR0aE1pbixcclxuICAkd2lkdGhNYXgsXHJcbiAgJGZhbGxiYWNrOiBmYWxzZVxyXG4pIHtcclxuICBmb250LXNpemU6ICRmb250TWluO1xyXG5cclxuICBAbWVkaWEgKG1pbi13aWR0aDogJHdpZHRoTWluKSB7XHJcbiAgICBAaWYgKCRmYWxsYmFjaykge1xyXG4gICAgICBmb250LXNpemU6ICRmYWxsYmFjaztcclxuICAgIH1cclxuICAgIGZvbnQtc2l6ZTogY2FsY0ZsdWlkRm9udFNpemUoJGZvbnRNaW4sICRmb250TWF4LCAkd2lkdGhNaW4sICR3aWR0aE1heCwgcHgpO1xyXG4gIH1cclxuICBAbWVkaWEgKG1pbi13aWR0aDogJHdpZHRoTWF4KSB7XHJcbiAgICBmb250LXNpemU6ICRmb250TWF4O1xyXG4gIH1cclxufVxyXG4iLCJAdXNlIFwic2FzczptYXBcIjtcclxuQGltcG9ydCBcIi4vdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbi5jb250YWluZXIge1xyXG4gIG1heC13aWR0aDogMTE0MHB4O1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxuICBtYXJnaW46IDAgYXV0bztcclxuICBwYWRkaW5nOiAwIDE1cHg7XHJcbn1cclxuXHJcbi5lcnJvciB7XHJcbiAgZm9udC1zaXplOiAxNHB4O1xyXG4gIGNvbG9yOiBtYXAuZ2V0KCRjb2xvcnMsIHJlZCk7XHJcbiAgbWFyZ2luLXRvcDogM3B4O1xyXG59XHJcbiIsIkB1c2UgXCJzYXNzOm1hcFwiO1xyXG5AaW1wb3J0IFwiLi9hc3NldHMvc3R5bGVzL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG5AZm9udC1mYWNlIHtcclxuICBmb250LWZhbWlseTogXCJOZWtzdFwiO1xyXG4gIHNyYzogbG9jYWwoXCJOZWtzdFwiKSwgbG9jYWwoXCJOZWtzdC1CbGFja1wiKSxcclxuICAgIHVybChcIi4vYXNzZXRzL2ZvbnRzL05la3N0LUJsYWNrLndvZmZcIikgZm9ybWF0KFwid29mZlwiKTtcclxuICBmb250LXdlaWdodDogbm9ybWFsO1xyXG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcclxufVxyXG5AZm9udC1mYWNlIHtcclxuICBmb250LWZhbWlseTogXCJHaWxyb3lcIjtcclxuICBzcmM6IGxvY2FsKFwiR2lscm95IFJlZ3VsYXJcIiksIGxvY2FsKFwiR2lscm95LVJlZ3VsYXJcIiksXHJcbiAgICB1cmwoXCIuL2Fzc2V0cy9mb250cy9HaWxyb3ktUmVndWxhci53b2ZmXCIpIGZvcm1hdChcIndvZmZcIik7XHJcbiAgZm9udC13ZWlnaHQ6IDkwMDtcclxuICBmb250LXN0eWxlOiBub3JtYWw7XHJcbn1cclxuXHJcbmh0bWwge1xyXG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XHJcbn1cclxuXHJcbiosXHJcbio6YmVmb3JlLFxyXG4qOmFmdGVyIHtcclxuICBib3gtc2l6aW5nOiBpbmhlcml0O1xyXG59XHJcblxyXG4qIHtcclxuICBtYXJnaW46IDA7XHJcbiAgcGFkZGluZzogMDtcclxuICBvdXRsaW5lOiBub25lO1xyXG4gIGZvbnQtZmFtaWx5OiBOZWtzdDtcclxuICBjb2xvcjogbWFwLmdldCgkY29sb3JzLCBkYXJrLWdyZXkpO1xyXG59XHJcblxyXG4ud3JhcHBlciB7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIG1pbi1oZWlnaHQ6IDEwMHZoO1xyXG59XHJcblxyXG4uY29udGVudCB7XHJcbiAgZmxleDogMSAwIGF1dG87XHJcbiAgcGFkZGluZy10b3A6IDJ2aDtcclxuICBwYWRkaW5nLWJvdHRvbTogMnZoO1xyXG59XHJcblxyXG4iLCJAdXNlIFwic2FzczptYXBcIjtcclxuQGltcG9ydCBcIi4uLy4uL2Fzc2V0cy9zdHlsZXMvdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbiRoZWFkZXJIZWlnaHQ6IDUwcHg7XHJcblxyXG4uaGVhZGVyIHtcclxuICBoZWlnaHQ6ICRoZWFkZXJIZWlnaHQ7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogbWFwLmdldCgkY29sb3JzLCB2aW9sZXQpO1xyXG5cclxuICAuY29udGVudCB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGhlaWdodDogMTAwJTtcclxuXHJcbiAgICAucmlnaHQge1xyXG4gICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcblxyXG4gICAgICBhIHtcclxuICAgICAgICBwYWRkaW5nOiAwIDEwcHg7XHJcblxyXG4gICAgICAgICY6aG92ZXIge1xyXG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogbWFwLmdldCgkY29sb3JzLCBkYXJrLWdyZXkpO1xyXG4gICAgICAgICAgY29sb3I6IG1hcC5nZXQoJGNvbG9ycywgd2hpdGUpO1xyXG4gICAgICB9XHJcbiAgICAgIH1cclxuICAgIH1cclxuXHJcbiAgICBhIHtcclxuICAgICAgQGluY2x1ZGUgZmx1aWRGb250U2l6ZSgxNHB4LCAyNHB4LCA0ODBweCwgMTI4MHB4LCAxNHB4KTtcclxuICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgICBsaW5lLWhlaWdodDogJGhlYWRlckhlaWdodDtcclxuICAgIH1cclxuICB9XHJcbn1cclxuIiwiQHVzZSBcInNhc3M6bWFwXCI7XHJcbkBpbXBvcnQgXCIuLi8uLi9hc3NldHMvc3R5bGVzL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG4ubG9nb3tcclxuICAgIEBpbmNsdWRlIGZsdWlkRm9udFNpemUoMjRweCwgMzZweCwgNDgwcHgsIDEyODBweCwgMThweCk7XHJcbn0iLCJAdXNlIFwic2FzczptYXBcIjtcclxuQGltcG9ydCBcIi4uLy4uL2Fzc2V0cy9zdHlsZXMvdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbi5mb290ZXIge1xyXG4gIG1pbi1oZWlnaHQ6IDIwdmg7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogbWFwLmdldCgkY29sb3JzLCBkYXJrLWdyZXkpO1xyXG4gIGNvbG9yOiBtYXAuZ2V0KCRjb2xvcnMsIHdoaXRlKTtcclxuICBmbGV4OiAwIDAgYXV0bztcclxuICBwYWRkaW5nOiAxMHB4IDA7XHJcblxyXG4gIGgyIHtcclxuICAgIGNvbG9yOiBtYXAuZ2V0KCRjb2xvcnMsIHZpb2xldCk7XHJcbiAgfVxyXG59IiwiLy8gQHVzZSBcInNhc3M6bWFwXCI7XHJcbkBpbXBvcnQgXCIuLi8uLi9hc3NldHMvc3R5bGVzL3ZhcmlhYmxlcy5zY3NzXCI7XHJcblxyXG4uaW1hZ2Uge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIG1hcmdpbi10b3A6IDV2aDtcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnLi4vLi4vYXNzZXRzL2ltYWdlcy9yZWFjdC5zdmcnKTtcclxuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XHJcblxyXG4gICAgaW1nIHtcclxuICAgICAgICB3aWR0aDogMTQwcHg7XHJcbiAgICB9XHJcbn0iLCIvLyBAdXNlIFwic2FzczptYXBcIjtcclxuQGltcG9ydCBcIi4uLy4uL2Fzc2V0cy9zdHlsZXMvdmFyaWFibGVzLnNjc3NcIjtcclxuXHJcbi5lcnJvciB7XHJcbiAgICBtYXJnaW4tdG9wOiAydmg7XHJcbiAgICBAaW5jbHVkZSBmbHVpZEZvbnRTaXplKDE0OHB4LCAyMDhweCwgNDgwcHgsIDEyODBweCwgMThweCk7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9*/

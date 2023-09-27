@@ -1,0 +1,15 @@
+// @use "sass:map";
+@import "../../assets/styles/variables.scss";
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    background-image: url('../../assets/images/react.svg');
+    background-repeat: no-repeat;
+
+    img {
+        width: 140px;
+    }
+}
